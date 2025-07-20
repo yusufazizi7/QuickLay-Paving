@@ -59,7 +59,7 @@
 
 /* Centered image (before-after photo) */
 .about-overlay-image img {
-    max-width: 35%;
+    max-width: 50%;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
@@ -140,8 +140,8 @@
 
 /* Image stays responsive */
 .about-overlay-image img {
-    width: 40%;
-    max-width: 600px;
+    width: 50%;
+    max-width: 650px;
     border-radius: 0.5rem;
     margin-bottom: 2rem;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
@@ -159,7 +159,7 @@
 }
 
 .about-overlay-text p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     line-height: 1.7;
     margin-bottom: 1.5rem;
     color: white;
@@ -198,4 +198,23 @@
 .white-underline {
     margin-top: 1rem;
     margin-bottom: 2rem;
+}
+@media (max-width: 768px) {
+    .hero-about {
+        height: 160vh; /* Make video area taller only on mobile */
+        padding-top: 3rem;
+    }
+
+    .about-overlay-image img {
+        width: 95%; /* Make image bigger on mobile */
+        max-width: none;
+    }
+
+    .about-overlay-text {
+        padding: 2rem 1.2rem;
+    }
+
+    .about-overlay-text p {
+        font-size: 1.6rem;
+    }
 }

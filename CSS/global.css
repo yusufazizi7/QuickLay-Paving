@@ -853,3 +853,14 @@ nav a:hover {
     }
 }
 
+@media (max-width: 768px) {
+    .contact-overlay-content h2 {
+        font-size: 2.2rem;
+        margin-bottom: 3rem;
+    }
+
+    .contact-overlay-content .quote-button {
+        font-size: 1.4rem;
+        padding: 0.8rem 1.6rem;
+    }
+}
